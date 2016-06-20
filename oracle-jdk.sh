@@ -38,6 +38,6 @@ if [[ "$JAVA_REMOVE" ]] ; then
     done  
 fi 
 
-apk del build-group
-
 rm "/tmp/"*
+
+apk del build-group
