@@ -3,7 +3,7 @@
 set -e -x
 
 [[ "$JAVA_VERSION" ]] || JAVA_VERSION=8
-[[ "$JAVA_UPDATE" ]]  || JAVA_UPDATE=92 
+[[ "$JAVA_UPDATE" ]]  || JAVA_UPDATE=102
 [[ "$JAVA_BUILD" ]]   || JAVA_BUILD=14 
 [[ "$JAVA_ARCH" ]]    || JAVA_ARCH="linux-x64"
 
